@@ -1,4 +1,4 @@
-#Bessel Functions
+# Bessel Functions
 
 ## Description
 This Python project explores numerical methods in physics through two main components:
