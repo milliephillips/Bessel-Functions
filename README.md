@@ -4,9 +4,9 @@
 This Python project explores numerical methods in physics through two main components:
 
 ### 1. Numerical Bessel Function Calculation
-- Calculates \( J_m(x) \), the Bessel function of the first kind, using the trapezium rule.
+- Calculates $\( J_m(x) \)$, the Bessel function of the first kind, using the trapezium rule.
 - Approximates the integral:
-$$
+  
    \[
   J_m(x) = \frac{1}{\pi} \int_0^\pi \cos(m\theta - x \sin\theta) \, d\theta
   \]
