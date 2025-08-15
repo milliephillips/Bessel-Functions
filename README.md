@@ -7,10 +7,10 @@ This Python project explores numerical methods in physics through two main compo
 - Calculates $\( J_m(x) \)$, the Bessel function of the first kind, using the trapezium rule.
 - Approximates the integral:
   
-   \[
+   $\[
   J_m(x) = \frac{1}{\pi} \int_0^\pi \cos(m\theta - x \sin\theta) \, d\theta
-  \]
-$$
+  \]$
+
   with 10,000 subintervals for high accuracy.
 - Generates plots for \( J_0(x) \), \( J_1(x) \), and \( J_2(x) \) over the range \( 0 \leq x \leq 20 \).
 
