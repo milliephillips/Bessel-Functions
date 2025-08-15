@@ -12,14 +12,14 @@ This Python project explores numerical methods in physics through two main compo
   \]$
 
   with 10,000 subintervals for high accuracy.
-- Generates plots for \( J_0(x) \), \( J_1(x) \), and \( J_2(x) \) over the range \( 0 \leq x \leq 20 \).
+- Generates plots for $\( J_0(x) \)$, $\( J_1(x) \)$, and $\( J_2(x) \)$ over the range $\( 0 \leq x \leq 20 \)$.
 
 ### 2. Diffraction Pattern of a Circular Lens
-- Uses \( J_1(x) \) to calculate the relative intensity of light through a circular aperture.
+- Uses $\( J_1(x) \)$ to calculate the relative intensity of light through a circular aperture.
 - Computes the diffraction pattern using:
-  \[
+  $\[
   \frac{I(r)}{I_0} = \left( \frac{2 J_1(x)}{x} \right)^2, \quad x = \frac{\pi r}{10 \lambda}, \quad \lambda = 600\,\text{nm}
-  \]
+  \]$
 - Produces a plot showing the central bright spot and concentric rings decreasing in intensity.
 
 ## Libraries
