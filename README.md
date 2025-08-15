@@ -8,7 +8,7 @@ This Python project explores numerical methods in physics through two main compo
 - Approximates the integral:
   
    $\[
-  J_m(x) = \frac{1}{\pi} \int_0^\pi \cos(m\theta - x \sin\theta) \, d\theta
+  J_m(x) = \frac{1}{\pi} \int_0^\pi \cos(m\theta - x \sin\theta) \ d\theta
   \]$
 
   with 10,000 subintervals for high accuracy.
@@ -18,7 +18,7 @@ This Python project explores numerical methods in physics through two main compo
 - Uses $\( J_1(x) \)$ to calculate the relative intensity of light through a circular aperture.
 - Computes the diffraction pattern using:
   $\[
-  \frac{I(r)}{I_0} = \left( \frac{2 J_1(x)}{x} \right)^2, \quad x = \frac{\pi r}{10 \lambda}, \quad \lambda = 600\,\text{nm}
+  \frac{I(r)}{I_0} = \left( \frac{2 J_1(x)}{x} \right)^2, \quad x = \frac{\pi r}{10 \lambda}, \quad \lambda = 600\ \text{nm}
   \]$
 - Produces a plot showing the central bright spot and concentric rings decreasing in intensity.
 
